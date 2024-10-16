@@ -4,6 +4,8 @@ At a high level, a computer cluster is a group of two or more computers, or node
 
 To build a computer cluster, the individual nodes should be connected to a network to enable internode communication. Software can then be used to join the nodes together and form a cluster. The cluster may include a shared storage device and/or local storage on each node.
 
+![cluster](cluster.png)
+
 ## Cluster
 
 Typically, at least one node is designated as the leader node and acts as the entry point to the cluster. The leader node may be responsible for delegating incoming work to the other nodes and, if necessary, aggregating the results and returning a response to the user.
@@ -24,9 +26,13 @@ The two most commonly used high availability (HA) clustering configurations are 
 
 ### Active-Active Clusters
 
+![active-active](active-active.png)
+
 An **active-active** cluster is typically made up of at least two nodes, both actively running the same kind of service simultaneously. The main purpose of an active-active cluster is to achieve **load balancing**. A load balancer distributes workloads across all nodes to prevent any single node from being overloaded. Since multiple nodes are available to handle requests, there is typically an improvement in throughput and response times.
 
 ### Active-Passive Clusters
+
+![active-passive](active-passive.png)
 
 In an **active-passive** cluster, like the active-active configuration, there are at least two nodes. However, not all nodes are active simultaneously. For example, in a two-node configuration, if one node is active, the second node remains passive or in standby mode. This setup is often used for **failover** purposes, where the passive node can take over in the event the active node fails.
 
