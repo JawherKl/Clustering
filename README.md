@@ -67,4 +67,4 @@ Clustering is widely used across various technologies, including:
 
 - **Containers** (e.g., Kubernetes, Amazon ECS)
 - **Databases** (e.g., Cassandra, MongoDB)
-- **Caching systems** (e.g., Redis)
+- **Caching systems** (e.g., Redis, Memcached)
