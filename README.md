@@ -15,7 +15,6 @@ Ideally, a cluster functions as if it were a single system. A user accessing the
 ## Types of Clusters
 
 Computer clusters can generally be categorized into three types:
-
 - **Highly available or fail-over**
 - **Load balancing**
 - **High-performance computing (HPC)**
