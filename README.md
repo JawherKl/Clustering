@@ -38,7 +38,6 @@ In an **active-passive** cluster, like the active-active configuration, there ar
 ## Advantages of Clustering
 
 Four key advantages of cluster computing include:
-
 - **High availability**: Ensures systems are always available, even in the event of a node failure.
 - **Scalability**: Allows easy scaling by adding more nodes to the cluster as demand grows.
 - **Performance**: Distributes workloads efficiently across nodes to improve performance.
