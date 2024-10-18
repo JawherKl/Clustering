@@ -61,7 +61,6 @@ Some challenges of clustering include:
 ## Examples of Clustering in Industry
 
 Clustering is widely used across various technologies, including:
-
 - **Containers** (e.g., Kubernetes, Amazon ECS)
 - **Databases** (e.g., Cassandra, MongoDB)
 - **Caching systems** (e.g., Redis, Memcached)
