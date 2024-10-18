@@ -52,7 +52,6 @@ You can use load balancing in conjunction with clustering, but load balancing is
 ## Challenges of Clustering
 
 Some challenges of clustering include:
-
 1. **Increased complexity**: Installing and maintaining a cluster involves setting up the operating system, applications, and their dependencies on every node. This complexity grows if the nodes are not homogeneous.
    
 2. **Monitoring**: Resource usage on each node must be closely monitored, and logs need to be aggregated to ensure proper functioning of the system.
